@@ -1,0 +1,20 @@
+{
+    "name": "sufiyan/crud-generator",
+    "description": "A laravel package to create a CRUD functionality for any module. This will create a Route, Controller, Model, Migration, and Blade files.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sufiyan\\CrudGenerator\\": "packages/sufiyan/crud-generator/src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sufiyan Rakhange",
+            "email": "sufiyrakhange97@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
