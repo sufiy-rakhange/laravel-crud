@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Sufiyan\\CrudGenerator\\CrudGeneratorServiceProvider' => $baseDir . '/src/Providers/CrudGeneratorServiceProvider.php',
 );

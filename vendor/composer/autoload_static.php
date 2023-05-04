@@ -30,6 +30,7 @@ class ComposerStaticInitca08baa0f4a330c8abe7820296b66091
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Sufiyan\\CrudGenerator\\CrudGeneratorServiceProvider' => __DIR__ . '/../..' . '/src/Providers/CrudGeneratorServiceProvider.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
