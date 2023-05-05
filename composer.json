@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sufiyan\\CrudGenerator\\sufiy:crud-generator {name}"
+                "Sufiyan\\CrudGenerator\\CrudGenerator"
             ]
         }
     }
