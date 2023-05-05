@@ -8,7 +8,7 @@
             "Sufiyan\\CrudGenerator\\": "packages/sufiyan/crud-generator/src/",
             "App\\": "app/"
         },
-        "classmap": [
+        "autoload": [
             "src/Providers/CrudGeneratorServiceProvider.php"
         ]
     },
