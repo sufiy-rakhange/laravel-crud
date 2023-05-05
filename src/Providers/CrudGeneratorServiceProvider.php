@@ -12,9 +12,11 @@ class CrudGeneratorServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->commands([
-            CrudGenerator::class,
-        ]);
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                CrudGenerator::class,
+            ]);
+        }
     }
 
     /**
@@ -22,8 +24,10 @@ class CrudGeneratorServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->commands([
-            CrudGenerator::class,
-        ]);
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                CrudGenerator::class,
+            ]);
+        }
     }
 }
