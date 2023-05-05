@@ -19,5 +19,12 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sufiyan\\CrudGenerator\\sufiy:crud-generator {name}"
+            ]
+        }
+    }
 }

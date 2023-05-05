@@ -14,7 +14,7 @@ class CrudGenerator extends Command
      *
      * @var string
      */
-    protected $signature = 'sufiyan/crud-generator {name}';
+    protected $signature = 'sufiy:crud-generator {name}';
 
     /**
      * The console command description.
